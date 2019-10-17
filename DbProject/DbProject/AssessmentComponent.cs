@@ -78,6 +78,8 @@ namespace DbProject
 
                 textBox4.Text = "this";
                 Console.WriteLine("this is hacktoberfest");
+                Console.WriteLine("this is hacktoberfest");
+                Console.WriteLine("jkhsjas");
             }
         }
         /// <summary>
