@@ -80,6 +80,10 @@ namespace DbProject
                 Console.WriteLine("this is hacktoberfest");
                 Console.WriteLine("this is hacktoberfest");
                 Console.WriteLine("jkhsjas");
+                Console.WriteLine("this is hacktoberfest");
+                Console.WriteLine("this is hacktoberfest");
+                Console.WriteLine("jkhsjas");
+
             }
         }
         /// <summary>
