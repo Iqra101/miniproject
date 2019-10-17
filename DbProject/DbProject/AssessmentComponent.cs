@@ -38,6 +38,7 @@ namespace DbProject
                 comboBox1.DataSource = dt;
                 comboBox1.DisplayMember = "Title";
                 comboBox1.ValueMember = "Id";
+  
                 string query1 = "SELECT Id,Details From dbo.Rubric";
                 SqlCommand cmd1 = new SqlCommand(query1, con);
                 SqlDataAdapter ad1 = new SqlDataAdapter();
@@ -76,21 +77,7 @@ namespace DbProject
                 MessageBox.Show("Data saved");
                 textBox1.Text = "";
 
-                textBox4.Text = "this";
-                Console.WriteLine("this is hacktoberfest");
-                Console.WriteLine("this is hacktoberfest");
-                Console.WriteLine("jkhsjas");
-                Console.WriteLine("this is hacktoberfest");
-                Console.WriteLine("this is hacktoberfest");
-                Console.WriteLine("jkhsjas");
-                textBox4.Text = "this";
-                Console.WriteLine("this is hacktoberfest");
-                Console.WriteLine("this is hacktoberfest");
-                Console.WriteLine("jkhsjas");
-                Console.WriteLine("this is hacktoberfest");
-                Console.WriteLine("this is hacktoberfest");
-                Console.WriteLine("jkhsjas");
-
+                textBox4.Text = "";
             }
         }
         /// <summary>
