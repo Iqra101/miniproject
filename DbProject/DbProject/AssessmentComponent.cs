@@ -76,7 +76,8 @@ namespace DbProject
                 MessageBox.Show("Data saved");
                 textBox1.Text = "";
 
-                textBox4.Text = "";
+                textBox4.Text = "this";
+                Console.WriteLine("this is hacktoberfest");
             }
         }
         /// <summary>
